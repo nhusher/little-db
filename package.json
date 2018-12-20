@@ -1,0 +1,16 @@
+{
+  "name": "little-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/interface.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/tests.js",
+    "start": "node ./src/little-db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
