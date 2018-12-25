@@ -47,7 +47,8 @@ const commands = {
 
 class Befuddle extends Error {}
 
-// Valuates a command string in the
+// Valuates a command string and reutrns the result as a simple object
+// of the new state and any output for the user.
 function eval (getState, commandString) {
   const [cmd, ...args] = commandString.split(/\s+/)
   const command = cmd.toLowerCase()
