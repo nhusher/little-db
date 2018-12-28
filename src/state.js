@@ -34,7 +34,7 @@ function commit (value) {
   if (prototype(value) === null) {
     return value
   } else {
-    return assoc(prototype(value), value)
+    return commit(assoc(prototype(value), value))
   }
 }
 
