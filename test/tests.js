@@ -10,7 +10,7 @@ tests.push(function assocTests () {
 
   assert(ship.type === 'ship')
   assert(ship !== scipio, `Expected reference identities to be different`)
-  assert(scipio.name === 'Scipio Africanus', `Expected scipio refererence to have name 'Scipio Africanus'`)
+  assert(scipio.name === 'Scipio Africanus', `Expected scipio reference to have name 'Scipio Africanus'`)
   assert(ship.name === undefined, `Unexpected name for ship`)
 
   // Test that assoc retains inheritance chain:
